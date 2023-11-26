@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    flex-basis: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+}
+
+.main-content {
+    flex-basis: 70%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-box {
+    padding: 20px;
+    text-align: center;
+    flex-basis: 40%;
+}
+
+.box1 {
+    flex-basis: 30%;
+    margin: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.b1 {
+    flex-basis: 49%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 212, 165);
+}
+
+.b2 {
+    flex-basis: 49%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 212, 165);
+}
+
+.box2 {
+    flex-basis: 30%;
+    margin: 20px;
+    background-color: rgb(241, 212, 165);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside {
+    flex-grow: 1;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(216, 237, 216);
+}
+
+footer {
+    flex-basis: 20%;
+    display: flex;
+    background-color: gainsboro;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-box {
+    padding: 10px;
+    background-color: white;
+}
